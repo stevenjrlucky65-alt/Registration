@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-// Temporary storage (Resets when Vercel goes to sleep)
+// Temporary data storage
 let bookings = [
   { name: "John Wick", room: "101" },
   { name: "Sherlock Holmes", room: "221B" }
